@@ -5,8 +5,8 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.xyz-jphil</groupId>
-    <artifactId>xyz-jphil-luvml-jsoup</artifactId>
+    <groupId>io.github.luvml</groupId>
+    <artifactId>luvml-jsoup</artifactId>
     <version>2.0</version>
     <packaging>jar</packaging>
     <properties>
@@ -15,10 +15,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+        <!-- luvml migrated to groupId io.github.luvml / artifactId luvml;
+             io.github.xyz-jphil:xyz-jphil-luvml no longer exists. -->
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>xyz-jphil-luvml</artifactId> 
-            <version>${project.version}</version>
+            <groupId>io.github.luvml</groupId>
+            <artifactId>luvml</artifactId>
+            <version>2.0</version>
         </dependency>
         <dependency>
             <groupId>org.jsoup</groupId>
