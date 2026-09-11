@@ -3,7 +3,7 @@
 **Parse wild HTML with JSoup, process with LuvML's type-safe DSL - the best of both worlds**
 
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.java.net/projects/jdk/21/)
-[![LuvML](https://img.shields.io/badge/LuvML-2.0-blue.svg)](https://github.com/xyz-jphil/xyz-jphil-luvml)
+[![LuvML](https://img.shields.io/badge/LuvML-2.0-blue.svg)](https://github.com/luvml/luvml)
 [![JSoup](https://img.shields.io/badge/JSoup-1.17%2B-green.svg)](https://jsoup.org/)
 
 ## What is LuvML-JSoup?
@@ -40,8 +40,8 @@ switch (element) {
 
 ```xml
 <dependency>
-    <groupId>io.github.xyz-jphil</groupId>
-    <artifactId>xyz-jphil-luvml-jsoup</artifactId>
+    <groupId>io.github.luvml</groupId>
+    <artifactId>luvml-jsoup</artifactId>
     <version>2.0</version>
 </dependency>
 ```
@@ -665,9 +665,9 @@ Supplier<BlogPost> ctor = def.constructor();
 
 ## Project Links
 
-- **LuvX Base**: [github.com/xyz-jphil/xyz-jphil-luvx-base](https://github.com/xyz-jphil/xyz-jphil-luvx-base)
-- **LuvML Core**: [github.com/xyz-jphil/xyz-jphil-luvml](https://github.com/xyz-jphil/xyz-jphil-luvml)
-- **LuvML-JSoup**: [github.com/xyz-jphil/xyz-jphil-luvml-jsoup](https://github.com/xyz-jphil/xyz-jphil-luvml-jsoup)
+- **LuvX Base**: [github.com/luvml/luvx-base](https://github.com/luvml/luvx-base)
+- **LuvML Core**: [github.com/luvml/luvml](https://github.com/luvml/luvml)
+- **LuvML-JSoup**: [github.com/luvml/luvml-jsoup](https://github.com/luvml/luvml-jsoup)
 
 ---
 
